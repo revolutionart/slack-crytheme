@@ -95,10 +95,10 @@ body:not(.loading) #team_menu:active {
    color: var(--text) !important;
 }
 .p-channel_sidebar__channel--im .c-presence--active, .p-channel_sidebar__channel--im-slackbot::before {
-    color: #37864d !important;
+    color: #09bcff !important;
 }
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:hover {
-    background: #37864d !important;
+    background: #09bcff !important;
     margin: 0 10px !important;
     width: 90% !important;
     padding: 5px !important;
@@ -163,7 +163,7 @@ ts-jumper input[type="text"],
 .p-channel_sidebar__link--selected:visited,
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected:hover {
-   background-color: #37864d !important;
+   background-color: #09bcff !important;
    border: solid var(--border-bright);
    border-width: 0;
 }
