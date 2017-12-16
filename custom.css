@@ -18,8 +18,8 @@ limitations under the License.
    /* Modify these to change your theme colors: */
    --primary: #09bcff;
    --text: #AAA;
-	--background: #262626;
-	--background-elevated: #202020;
+	--background: #22272A;
+	--background-elevated: #161B1D;
 
    /* These should be less important: */
    --background-hover: rgba(255, 255, 255, 0.1);
