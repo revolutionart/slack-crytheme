@@ -3,7 +3,7 @@ CRYENGINE Slack Theme
 
 # Preview
 
-![Screenshot](https://raw.githubusercontent.com/revolutionart/screenshots/master/polycount_slack_screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/revolutionart/screenshots/master/cryengine_slack_theme.png)
 
 # Installing into Slack
 
@@ -37,10 +37,10 @@ document.addEventListener("DOMContentLoaded", function() {
    let customCustomCSS = `
    :root {
       /* Modify these to change your theme colors: */
-      --primary: #37864d;
-	--text: #aaaaaa;
-	--background: #262626;
-	--background-elevated: #202020;
+		--primary: #09bcff;
+		--text: #aaaaaa;
+		--background: #22272A;
+		--background-elevated: #161B1D;
    }
    `
 
