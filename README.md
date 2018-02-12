@@ -18,8 +18,8 @@ Find your Slack's application directory.
 2. Example: `C:\Users\USERNAME\AppData\Local\slack\app-2.8.2\resources\app.asar.unpacked\src\static`
 
 !**Slack Version 3.0.xx** follow below:
-1. Open up the most recent version (e.g. `app-3.0.0`) then open `resources\app.asar.unpacked\src\static\ssb-interop.js`
-2. Example: `C:\Users\USERNAME\AppData\Local\slack\app-3.0.0\resources\app.asar.unpacked\src\static`
+1. Open up the most recent version (e.g. `app-3.0.5`) then open `resources\app.asar.unpacked\src\static\ssb-interop.js`
+2. Example: `C:\Users\USERNAME\AppData\Local\slack\app-3.0.5\resources\app.asar.unpacked\src\static`
 
 ### At the very bottom, add
 
@@ -79,3 +79,5 @@ so you don't necessarily need to create an entire fork to change some small styl
 That's it! Restart Slack and see how well it works.
 ---
 **NB: You'll have to do this every time Slack updates.**
+
+Updated for slack 3.0.5
