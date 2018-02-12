@@ -90,15 +90,15 @@ a, a:link, a:visited {
     color: var(--text) !important;
 }
 .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
-    background-color: var(--background-hover);
+    background-color: var(--background-hover)!important ;
 }
 .c-message_list__day_divider__label__pill {
-    background: var(--background);
-    color: var(--text);
+    background: var(--background)!important;
+    color: var(--text)!important;
 }
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before {
-    border-bottom: 1px solid var(--text);
-    background: var(--background);
+    border-bottom: 1px solid var(--text) !important;
+    background: var(--background)!important;
 }
 
 /* Channel selector */
